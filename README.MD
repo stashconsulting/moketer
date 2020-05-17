@@ -2,7 +2,7 @@
 > Mock made fast
 
 ## What is Moketer?
-Moketer is a proyect designed to stop you from creating "quick-start" apis to validate external tools.
+Moketer is a project designed to stop you from creating "quick-start" apis to validate external tools.
 Use cases:
 - Test an external tool that requires any endpoint to understand/test it's functionality (yes kong, I'm speaking about you).
 - Validating that I'm hitting the right endpoints
