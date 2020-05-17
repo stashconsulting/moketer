@@ -23,11 +23,15 @@ sudo chmod u+x moketer
 ## USAGE
 
 ### Example
-Start the webserver, appends the header and cookies to the response and also prints it to the console <br/>
-```
-./moketer --host=0.0.0.0 --port=8080 --uri --headers --cookies --std
-curl 0.0.0.0:8080
-```
+Start the webserver: <br/>
+`./moketer --host=0.0.0.0 --port=8080 --uri --headers --cookies --std`
+>  Appends the header and cookies to the response and also prints it to the console <br/>
+
+Send a test request: <br/>
+`curl 0.0.0:8080`
+
+Example response: <br/>
+`{"body":null,"cookies":[],"headers":{"Accept":["*/*"],"User-Agent":["curl/7.68.0"]},"uri":"/"}`
 
 ### Params
 Each part of the request is constomizable, so you always get what you specify
