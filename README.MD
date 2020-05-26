@@ -6,10 +6,10 @@ Moketer is a project designed to stop you from creating "quick-start" apis to va
 Use cases:
 - Test an external tool that requires any endpoint to understand/test it's functionality (yes kong, I'm speaking about you).
 - Validating that I'm hitting the right endpoints
-- Validate if I'm sending the right parameters (for those cases where you just aren't sure if your fronted is sending what it's supossed to send and the api doesn't give you much information)
+- Validate if I'm sending the right parameters (for those cases where you just aren't sure if your fronted is sending what it's supposed to send and the api doesn't give you much information)
 
 ### TODO:
-- Define a yaml/json spec to allow the users to define custom codes and respondes for specifc endpoints
+- Define a yaml/json spec to allow the users to define custom codes and responses for specific endpoints
 - Add Compiled version
 
 ## Installation
@@ -34,7 +34,7 @@ Example response: <br/>
 `{"body":null,"cookies":[],"headers":{"Accept":["*/*"],"User-Agent":["curl/7.68.0"]},"uri":"/"}`
 
 ### Params
-Each part of the request is constomizable, so you always get what you specify
+Each part of the request is customizable, so you always get what you specify
 
 <pre>
 -basicAuth
